@@ -4,7 +4,7 @@ body {
   height:100vh;
   background-color: #6699cc;
   transform-style:preserve-3d;
-  animation: bg-color 25s ease-in-out infinite;
+  animation: bg-color 25s ease-in-out infinite alternate;
  } 
 
 /* sky and sun/moon styles*/
@@ -27,7 +27,7 @@ body {
   border-radius:50%;
   width:100px;
   height:100px;
-  animation: round 25s ease-in-out infinite;
+  animation: round 25s ease-in-out infinite alternate;
 }
 
 #background-wrap {
@@ -91,7 +91,7 @@ body {
   height: 120px;
   position: relative;
   width: 350px;
-  animation: stars 25s ease-out infinite;
+  animation: stars 25s ease-out infinite 3s alternate;
 
 }
 
@@ -100,7 +100,7 @@ body {
   content: '';
   position: absolute;
   z-indeX: -1;
-  animation: stars 25s ease-out infinite;
+  animation: stars 25s ease-out infinite 3s alternate;
 }
 
 .cloud:after {
@@ -126,8 +126,8 @@ body {
   bottom: 95px;
   right: 150px;
   z-index: 5;
-  -webkit-animation: 25s ease  infinite  fadein;
-  animation: 25s ease  infinite  fadein;
+  -webkit-animation: 25s ease  infinite  fadein alternate;
+  animation: 25s ease  infinite  fadein alternate;
 }
 
 .house-night {
@@ -135,8 +135,8 @@ body {
   bottom: 95px;
   right: 150px;
   z-index: 5;
-  -webkit-animation: 25s ease  infinite  fadeout;
-  animation: 25s ease  infinite  fadeout;
+  -webkit-animation: 25s ease  infinite  fadeout alternate;
+  animation: 25s ease  infinite  fadeout alternate;
 }
 
 .house-night img, .house-day img {
@@ -149,8 +149,8 @@ body {
   position: absolute;
   bottom: 280px;
   right: 420px;
-  -webkit-animation: 25s ease  infinite  fadeout;
-  animation: 25s ease  infinite  fadeout;
+  -webkit-animation: 25s ease  infinite  fadeout alternate;
+  animation: 25s ease  infinite  fadeout alternate;
 }
 /* road styles */
 .road {
@@ -162,8 +162,8 @@ body {
   background-image: url(../img/road.png);
   background-position: center; 
   background-size: cover;
-  -webkit-animation: 25s ease  infinite  road;
-  animation: 25s ease  infinite  road;
+  -webkit-animation: 25s ease  infinite  road alternate;
+  animation: 25s ease  infinite  road alternate;
   
 }
 

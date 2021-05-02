@@ -1,7 +1,8 @@
+/* cloud transform to stars animation */
 @keyframes stars {
   50% {
-    width: 350px;
-    height: 120px;
+    width: 200px;
+    height: 150px;
   }
   51% {
     width: 4px;
@@ -45,7 +46,7 @@
   }
 }
 
-
+/* day transform to night animation */
 @keyframes bg-color {
   0%{
   background-color:  #6699cc;
@@ -67,10 +68,10 @@
   }
 }
 
+/* sun transform to moon animation */
 @keyframes round{
   0%{
     background-color:  #ffc922;
-    /*left:150px*/
   }
   10% {
    background-color:  #ffd964;
@@ -104,43 +105,89 @@
   }
 }
 
-
+/* house fade animation*/
 @keyframes fadein{
-    0% { opacity:1; }
-    66% { opacity:0.5; }
-    100% { opacity:0; }
+    0% { 
+      opacity:1; 
+    }
+    66% { 
+      opacity:0.5; 
+    }
+    100% { 
+      opacity:0; 
+    }
 }
 
 @-webkit-keyframes fadein{
-    0% { opacity:1; }
-    66% { opacity:0.5; }
-    100% { opacity:0; }
+    0% { 
+      opacity:1; 
+    }
+    66% { 
+      opacity:0.5; 
+    }
+    100% { 
+      opacity:0; 
+    }
 }
 
+/* night house display animation*/
 @keyframes fadeout{
-    0% { opacity:0; }
-    50% { opacity:0.4; }
-    51% { opacity:0.7; }
-    100% { opacity:0.8; }
+    0% { 
+      opacity:0; 
+    }
+    50% { 
+      opacity:0.4; 
+    }
+    51% { 
+      opacity:0.7; 
+    }
+    100% { 
+      opacity:0.8; 
+    }
 }
 
 @-webkit-keyframes fadeout{
-    0% { opacity:0; }
-    50% { opacity:0.4; }
-    51% { opacity:0.7; }
-    100% { opacity:0.8; }
+    0% { 
+      opacity:0; 
+    }
+    50% { 
+      opacity:0.4; 
+    }
+    51% { 
+      opacity:0.7; 
+    }
+    100% { 
+      opacity:0.8; 
+    }
 }
 
+/* road opacity for night animation*/
 @keyframes road{
-    0% { opacity:1; }
-    6% { opacity:0.7; }
-    90% { opacity:0.5; }
-    100% { opacity:0.4; }
+    0% { 
+      opacity:1; 
+    }
+    6% { 
+      opacity:0.7; 
+    }
+    90% { 
+      opacity:0.5; 
+    }
+    100% { 
+      opacity:0.4; 
+    }
 }
 
 @-webkit-keyframes road{
-    0% { opacity:1; }
-    66% { opacity:0.7; }
-    90% { opacity:0.5; }
-    100% { opacity:0.4; }
+    0% { 
+      opacity:1; 
+    }
+    66% { 
+      opacity:0.7; 
+    }
+    90% { 
+      opacity:0.5; 
+    }
+    100% { 
+      opacity:0.4; 
+    }
 }
