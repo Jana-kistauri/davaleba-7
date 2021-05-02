@@ -1,3 +1,47 @@
+@keyframes stars {
+  50% {
+    width: 350px;
+    height: 120px;
+  }
+  60% {
+    width: 1px;
+    height: 1px;
+  }
+  65% {
+    width: 3px;
+    height: 3px;
+  }
+  70%{
+    width: 1px;
+    height: 1px
+  }
+  75%{
+    width: 3px;
+    height: 3px
+  }
+  80%{
+    width: 1px;
+    height: 1px
+  }
+  85% {
+    width: 3px;
+    height: 3px;
+  }
+  90%{
+    width: 1px;
+    height: 1px
+  }
+  95%{
+    width: 3px;
+    height: 3px
+  }
+  100%{
+    width: 1px;
+    height: 1px
+  }
+}
+
+
 @keyframes bg-color {
   0%{
   background-color:  #6699cc;
@@ -55,3 +99,36 @@
     /*left:-290px;*/
   }
 }
+
+/*@keyframes change {
+  0% {
+    opacity: 0.2;
+  }
+  100% {
+    opacity: 1;
+  }
+}*/
+
+@keyframes change-day {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.9;
+  }
+  100% {
+    opacity: 0.1;
+  }
+}
+
+/*@keyframes road {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.9;
+  }
+  100% {
+    opacity: 0.1;
+  }
+}*/
